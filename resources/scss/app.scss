@@ -166,3 +166,40 @@ header {
         }
     }
 }
+
+.myContainer {
+    background-color: #0c7cec;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+
+        li {
+            padding: 0 20px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                width: 40px;
+            }
+
+
+            a {
+                color: #fff;
+                text-decoration: none;
+                margin: 0 10px;
+            }
+        }
+    }
+}
