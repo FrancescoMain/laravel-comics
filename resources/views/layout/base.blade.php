@@ -16,7 +16,8 @@
 </head>
 
 <body>
- @yield('content')
+    @include('.components.header')
+    @yield('content')
 
 
 </body>
