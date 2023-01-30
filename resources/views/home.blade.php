@@ -90,9 +90,33 @@
         <div class="button-container">
             <button class="button second "> text </button>
         </div>
-
     </div>
+</div>
 
+<div class="myContainer">
+    <ul>
+        <li>
+            <img src="{{Vite::asset('public/img/buy-comics-subscriptions.png')}}" alt="">
+            <a href="">link.title</a>
+        </li>
+        <li>
+            <img src="{{Vite::asset('public/img/buy-comics-subscriptions.png')}}" alt="">
+            <a href="">link.title</a>
+        </li>
+        <li>
+            <img src="{{Vite::asset('public/img/buy-comics-subscriptions.png')}}" alt="">
+            <a href="">link.title</a>
+        </li>
+        <li>
+            <img src="{{Vite::asset('public/img/buy-comics-subscriptions.png')}}" alt="">
+            <a href="">link.title</a>
+        </li>
+        <li>
+            <img src="{{Vite::asset('public/img/buy-comics-subscriptions.png')}}" alt="">
+            <a href="">link.title</a>
+        </li>
+        
+    </ul>
 </div>
 
 
