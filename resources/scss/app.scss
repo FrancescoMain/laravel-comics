@@ -129,6 +129,27 @@ header {
             align-items: center;
             justify-content: center;
             flex-wrap: wrap;
+
+            li {
+                    width: calc(100% / 5 - 40px);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+            
+                    .img-container {
+                        height: 200px;
+                        width: 200px;
+                        overflow: hidden;
+                        margin-bottom: 30px;
+                    }
+            
+                    h5 {
+                        color: #fff;
+                        font-size: 0.9rem;
+                        margin: 10px 0;
+                    }
+                }
+
         }
 
         .second {
